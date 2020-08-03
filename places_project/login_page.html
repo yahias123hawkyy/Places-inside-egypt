@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="log-in.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="https://use.fontawesome.com/0333ada82d.js"></script>
+    <title>Login in | Company</title>
+</header>
+
+<body>
+    <div class="page-background">
+        <div class="background-container">
+            <div class="page-holder">
+                <div class="text">
+                    <h3>Account <span>Login</span></h3>
+                </div>
+                <div class="forms-holder">
+                        <input id="email" type="text" placeholder="email">
+                        <h6 id="error-email" >you should enter a valid email</h6>
+                        <input id="password" name="password" type="password" placeholder="password">
+                        <h6 id="error-pass">you should enter a valid password</h6>
+                        <input type="submit" class="submit" onclick="makeValidation()" >
+                        <div class="social-media-log-in">
+                            <button class="left"><a href="https://twitter.com/login?lang=ar" style="color: white;" href="#"><i class="fa fa-twitter"
+                                    aria-hidden="true"></i>
+                                twitter</a></button>
+                        <button class="right"><a href="https://ar-ar.facebook.com/" style="color: white;" href="#"><i class="fa fa-facebook-square"
+                                    aria-hidden="true"></i>
+                                Facebook</a></button>
+                        <div class="signup">
+                            <p style="font-size: 12px;margin-top: 15px;">you don't hava an account? <a
+                                    style="cursor: pointer; text-decoration: none;">Sign up now!</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="brain.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+
+body {
+    background-attachment: fixed;
+    background-color: black;
+    background-size: cover;
+    background-image: url("man-standing-near-concrete-building-2184177\ \(2\).jpg");
+}
+
+.page-background {
+    position: absolute;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.social-media-log-in {
+    width: 160px;
+    margin-top: 20px;
+}
+
+.background-container {
+    background-color: rgb(0 0 0 / 60%);
+    color: white;
+    margin: 20px auto;
+    height: 450px;
+    width: 400px;
+    border-radius: 20px;
+    position: relative;
+    animation: animation-login 6s;
+    transition: ease-in-out ;
+}
+
+.page-holder {
+    margin: 100px auto;
+    width: 80%;
+    animation: animation-login-header 4s;
+    transition: ease-in-out;
+}
+
+.page-holder .text {
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    left: 33%;
+    margin: 1px auto;
+}
+
+.page-holder .forms-holder input {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    padding-left: 5px;
+    line-height: 2;
+    color: black;
+}
+.page-holder .forms-holder input:checked {
+    border-color: orchid;
+}
+
+.page-holder .forms-holder input[type=submit] {
+    background-color: black;
+    color: white;
+    transition: 2s ease-in-out;
+}
+.page-holder .forms-holder input[type=submit]:hover{
+    background-color: purple;
+    color: white;   
+}
+.page-holder .forms-holder {
+    position: absolute;
+    top: 30%;
+    left: 27%;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.page-holder .text h3 {
+    margin-top: 52px;
+    animation:animation-login-header 3s ; 
+     transition: ease-in-out;
+}
+
+.page-holder .text h3 span {
+    color: purple;
+}
+
+.page-holder .text i {
+    font-size: 30px;
+    color: blue;
+    border-radius: 50%;
+}
+
+.social-media-log-in {
+    width: 83%;
+}
+
+.social-media-log-in .left {
+    float: left;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    background-color: #2aa9e0;
+}
+
+.social-media-log-in .right {
+    float: right;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    background-color: #0e8ef2;
+}
+
+.social-media-log-in .right a, .social-media-log-in .left a {
+    text-decoration: none;
+}
+.signup {
+    padding-top: 29px
+}
+#error-email,#error-pass{
+    display: none;
+    color: rgb(224, 66, 66);
+}
+@keyframes animation-login-header{
+    from{font-size: 0px;}
+    to{font-size: 34;}
+}
+@keyframes animation-login{
+    from{height: 0px;}
+    to{height: 450px;}
+}
+.right:hover{
+      opacity: 0.7;
+}
+.left:hover{
+opacity: 0.7;
+}

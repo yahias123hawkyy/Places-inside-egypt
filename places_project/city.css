@@ -1,0 +1,378 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-bar {
+    padding-top: 20px;
+    color: black;
+}
+
+/* h1 span{
+    color:black;
+} */
+
+h1 {
+    margin-top: 10px;
+}
+
+.nav-bar h1 {
+    display: inline;
+    overflow: hidden;
+    clear: both;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.nav-bar h1 span {
+    color: #42275a;
+   
+}
+
+.nav-bar ul {
+    float: right;
+    padding-right: 20px;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 40;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: large;
+}
+
+.background {
+    width: 100%;
+    background-image: url("alexandria-castle-egypt.jpg");
+    min-width: 100%;
+    min-height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    line-height: 1.5;
+}
+
+.background .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    min-width: 100%;
+    min-height: 800px;
+    width: 100%;
+    color: white;
+}
+
+.background .overlay .content {
+    position: absolute;
+    width: 30%;
+    margin-left: 20px;
+    top: 40%;
+    animation: animation-alex 2s;
+}
+
+.background .overlay .content button {
+    padding: 4%;
+    background-color: #42275a;
+    border: none;
+    border-radius: 30%;
+    margin-left: 4px;
+    font-size: 13px;
+}
+
+@keyframes animation-alex {
+    0% {
+        top: 200%
+    }
+    100% {
+        top: 40%
+    }
+}
+
+.background .overlay .content h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.background .overlay .content p {
+    line-height: 2;
+    color: rgb(224, 218, 218);
+}
+
+.holder {
+    width: 81%;
+    margin: 0px auto;
+}
+
+.nav-bar ul li a:hover {
+    color: white;
+    opacity: 0.8;
+}
+
+.not-visible {
+    display: none;
+}
+
+.visible {
+    display: inline;
+}
+
+.container {
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+}
+
+
+.gallery {
+    position: relative;
+    background-color: #e6e6e6;
+    overflow: hidden;
+    clear: both;
+    padding: 10px;
+}
+
+.gallery .holder {
+    margin: 20px auto;
+    width: 50%;
+}
+
+.gallery .holder h1 {
+    margin: 20px auto;
+    position: relative;
+    left: 41%;
+    font-weight: bold;
+}
+
+.photo {
+    border-radius: 4px;
+    float: left;
+    width: 32%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border: solid 2px black;
+}
+
+.photo img {
+    width: 237px;
+    height: 200px;
+}
+
+.features {
+    height: 330px;
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+}
+
+.cont {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.feature {
+    width: 50%;
+    float: left;
+}
+
+.feature i {
+    color: #b3afaf;
+    font-size: 80px;
+    text-align: center;
+    position: relative;
+    left: 106px;
+    transition: ease-in-out 1s;
+}
+
+.feature i:hover {
+    color: white;
+}
+
+.feature p {
+    color: rgb(221, 221, 221);
+}
+
+.features h1 {
+    margin-bottom: 40px;
+    color: #d4cbcb
+}
+
+.features h4 {
+    color: #d4cbcb;
+    transition: ease-in-out 1s;
+}
+
+.features h4:hover {
+    color: white;
+}
+
+.cont2 {
+    margin: 20px auto;
+    width: 1200px;
+}
+
+.cont2 .image-container {
+    width: 48%;
+    float: right;
+}
+
+.cont2 .image-container img {
+    height: 195px;
+    width: 438px;
+}
+
+.con3 {
+    width: 48%;
+    float: left;
+    height: 40%;
+}
+
+.place {
+    height: 240px;
+    margin-bottom: 20px;
+}
+
+.place button {
+    padding: 10px;
+    background-color: #42275a;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+}
+
+.place button:hover {
+    opacity: 0.9;
+}
+
+.place h2 {
+    color: #42275a;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.hotel-reservation {
+    background-color: #e6e6e6;
+    color: black;
+    width: 100%;
+    position: relative;
+    padding: 20px;
+}
+
+.hotel-reservation .cont3 {
+    margin: 50px auto;
+    width: 50%;
+}
+
+.hotel-reservation .cont3 button {
+    background-color: #42275a;
+    padding: 10px;
+    width: 50%;
+    color: white;
+    border: none;
+}
+
+.hotel-reservation .cont3 h1 {
+    font-weight: bold;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 480px;
+}
+
+.footer .main-section {
+    margin: 0px auto;
+    width: 60%;
+}
+
+.footer .main-section .section {
+    float: left;
+    width: 50%;
+}
+
+.footer .main-section .section ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer .main-section .section ul li {
+    float: left;
+    width: 33.3%;
+    color: #b3afaf;
+    transition: ease-in-out 1s;
+}
+
+.footer .main-section .section ul li:hover {
+    color: white;
+}
+
+.footer .main-section .section i {
+    color: #b3afaf;
+    font-size: 27px;
+    margin-top: 10px;
+    margin-right: 10px;
+    transition: ease-in-out 1s;
+}
+
+.footer .main-section .section i:hover {
+    color: white;
+}
+
+.footer .main-section .section h1 {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.form {
+    width: 100%;
+}
+
+.form input {
+    display: block;
+    width: 62%;
+    display: block;
+    border: none;
+    line-height: 2.2;
+    margin-bottom: 10px;
+}
+
+.form input, .form textarea {
+    color: black;
+    padding-left: 10px;
+}
+
+.form button {
+    background-color: #42275a;
+    padding: 10px;
+    width: 50%;
+    color: white;
+    border: none;
+    width: 63%;
+}
+
+.footer .main-section .section div {
+    width: 300px;
+    margin-top: 10px;
+}
+
+.footer .main-section .section div img {
+    width: 40%;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
